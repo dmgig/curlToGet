@@ -1,7 +1,7 @@
 curlToGet
 =========
 
-An extremely basic library providing a utility method to `convert` curl command line syntax into a url with get parameters. Ignores all flags except for -d and --data.
+An extremely basic library providing a utility method to `convert` curl command line syntax into a url with get parameters. Ignores all flags except for -d and --data. (Mostly a chance to play with node modules and npm.)
 
 ## Installation
 
