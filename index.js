@@ -1,7 +1,7 @@
 /**
- * Escape special characters in the given string of html.
+ * convert cli curl call to browser url with parameter string
  *
- * @param  {String} html
+ * @param  {String} curl
  * @return {String}
  */
 module.exports = {
