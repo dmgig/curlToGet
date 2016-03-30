@@ -6,19 +6,24 @@
  */
 module.exports = {
   convert: function(curl){
-	var url, data;
+	
+	var url, params;
+	
 	var getParams = function(curl){ 
 		return curl.split(" ").map(function(e, i, arr){
 			if(i != 0) 
-				if(this != null && arr[i-1] == "-"+this)
+				if(this != null && this.indexOf(arr[i-1]) > -1)
 					return e;
-		}, 'd').filter(function(item){ return !(typeof item === 'undefined'); });
+		}, ['--data', '-d']).filter(function(item){ return !(typeof item === 'undefined'); });
 	}
+	
 	var getUrl = function(curl){
 		return curl.split(" ").splice(-1);
 	}	
-	data = getParams(curl).join("&");
-	url  = getUrl(curl);	
-	return url+"?"+data;
+	
+	params = getParams(curl).join("&");
+	url    = getUrl(curl);	
+	
+	return url + "?" + params;
   }
 };
