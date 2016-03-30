@@ -1,0 +1,27 @@
+{
+  "name": "curltoget",
+  "version": "0.1.0",
+  "description": "convert cURL calls to URLs with GET parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmgig/curlToGet.git"
+  },
+  "keywords": [
+    "curl",
+    "url"
+  ],
+  "author": "Dave M. Giglio <dave.m.giglio@gmail.com> (http://dmgig.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmgig/curlToGet/issues"
+  },
+  "homepage": "https://github.com/dmgig/curlToGet#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
