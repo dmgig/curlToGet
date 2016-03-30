@@ -5,7 +5,7 @@ An extremely basic library providing a utility method to `convert` curl command 
 
 ## Installation
 
-  npm install curltoget --save
+  npm install https://github.com/dmgig/curlToGet.git
 
 ## Usage
 
