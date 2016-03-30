@@ -5,7 +5,7 @@ An extremely basic library providing a utility method to `convert` curl command 
 
 ## Installation
 
-  npm install https://github.com/dmgig/curlToGet.git
+  `npm install https://github.com/dmgig/curlToGet.git`
 
 ## Usage
 
@@ -22,11 +22,12 @@ An extremely basic library providing a utility method to `convert` curl command 
 
 ## Tests
 
-  npm test
+  `npm test`
 
 ## Release History
 
-* 0.1.1 Initial release
+* 0.1.0 Initial release
+* 0.1.1 allow long names
 
 ## Acknowledgements
 
