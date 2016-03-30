@@ -1,6 +1,6 @@
 {
   "name": "curltoget",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "convert cURL calls to URLs with GET parameters",
   "main": "index.js",
   "scripts": {
