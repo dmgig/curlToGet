@@ -1,11 +1,11 @@
 curlToGet
 =========
 
-An extremely basic library providing a utility method to `convert` curl command line syntax into a url with get parameters. Ignores all flags except for -d and --data.
+An extremely basic library providing a utility method to `convert` curl command line syntax into a url with get parameters. Ignores all flags except for -d and --data. (Mostly a chance to play with node modules and npm.)
 
 ## Installation
 
-  npm install curltoget --save
+  `npm install https://github.com/dmgig/curlToGet.git`
 
 ## Usage
 
@@ -22,11 +22,12 @@ An extremely basic library providing a utility method to `convert` curl command 
 
 ## Tests
 
-  npm test
+  `npm test`
 
 ## Release History
 
-* 0.1.1 Initial release
+* 0.1.0 Initial release
+* 0.1.1 allow long names
 
 ## Acknowledgements
 
