@@ -9,14 +9,16 @@ An extremely basic library providing a utility method to `convert` curl command 
 
 ## Usage
 
+```javascript
   var curltoget = require('curltoget')
       convert = curltoget.convert;
 
   var curl = 'curl -GL -d dog=Fido -d cat=Kitty -d horse=Banjo http://petznamez.net',
       url = convert(curl);
 
-  console.log('curl', curl, 'url', url);
-  http://petznamez.net?dog=Fido&cat=Kitty&horse=Banjo
+  console.log(url);
+  // http://petznamez.net?dog=Fido&cat=Kitty&horse=Banjo
+```
 
 ## Tests
 
